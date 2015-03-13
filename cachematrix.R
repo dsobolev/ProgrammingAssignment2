@@ -44,7 +44,6 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve <- function(x, ...) {
     inverted <- x$getInverted()
     if (!is.null(inverted)) {
-        message("from cach")
         return(inverted)
     }
         
